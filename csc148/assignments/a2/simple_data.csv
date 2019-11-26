@@ -1,0 +1,7 @@
+Author,Title,Year,Category,Url,Citations
+"aaaa",paper1,1777,a:b:c,http://doi.acm.org/10.1145/800010.808066,6
+"bbbb",paper2,1777,a:b:c,http://doi.acm.org/10.1145/800010.808066,6
+"cccc",paper3,1777,m:n,http://doi.acm.org/10.1145/800010.808066,0
+"dddd",paper4,1778,m:o:p,http://doi.acm.org/10.1145/800010.808066,6
+"eeee",paper5,1778,a:b:d:e,http://doi.acm.org/10.1145/800010.808066,6
+"ffff",paper6,1778,a:f,http://doi.acm.org/10.1145/800010.808066,6

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CSC148: Prep 8: Trees</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://www.teach.cs.toronto.edu/~csc148h/winter/styles/main.css" />
+  <link rel="stylesheet" href="https://www.teach.cs.toronto.edu/~csc148h/winter/styles/course.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="content">
+<h1>Prep 8: Trees</h1>
+<p>This week’s prep introduces a new recursive data structure, the <em>tree</em>. We’ll first define what a tree is, then look at how to represent one in Python, and finally, get to work implementing recursive functions that operate on them.</p>
+<h2 id="readings-to-complete">Readings to complete</h2>
+<ul>
+<li><a href="https://www.teach.cs.toronto.edu/~csc148h/winter/notes/trees/tree_introduction.html">6.1 Introduction to Trees</a></li>
+<li><a href="https://www.teach.cs.toronto.edu/~csc148h/winter/notes/trees/tree_implementation.html">6.2 A Tree Implementation</a></li>
+</ul>
+<h2 id="comprehension-questions">Comprehension questions</h2>
+<p>Complete the <strong>Prep 8 quiz: Trees</strong> quiz on <a href="https://q.utoronto.ca/courses/68408/quizzes/26849">Quercus</a>.</p>
+<h2 id="synthesize-submit-on-markus">Synthesize (submit on MarkUs)</h2>
+<p>This week’s programming exercises are all about getting comfortable working with trees. Please find our detailed instructions in the starter code.</p>
+<ul>
+<li><a href="../starter-code/prep8.py">starter code</a> (with instructions)</li>
+</ul>
+<p>Note: while we’ve provided some doctests, we haven’t provided any additional sample tests this week. However, we strongly encourage you add your own tests to verify that your code is correct!</p>
+<p>When you’re done, submit <code>prep8.py</code> on MarkUs.</p>
+  </div>
+
+  <footer>
+    <div id="cs-logo">
+      <a href="http://web.cs.toronto.edu/">
+        <img id="logo"
+             src="https://www.teach.cs.toronto.edu/~csc148h/winter/images/dcs_logo.png " />
+      </a>
+    </div>
+    <p>
+      For course-related questions, please contact <strong>csc148-2019-01 at cs.toronto.edu</strong>.
+    </p>
+  </footer>
+
+  <!--scripts-->
+  <script>
+    jQuery('.content').click(function() {
+      jQuery('.dropdown-list').hide();
+    });
+    jQuery('nav').click(function(event){
+      event.stopPropagation();
+    });
+    jQuery('.dropdown-toggle').click(function(event){
+      jQuery(event.target).siblings('.dropdown-list').toggle();
+    });
+  </script>
+</body>
+</html>
